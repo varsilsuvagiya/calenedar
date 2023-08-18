@@ -62,6 +62,9 @@
         //create 1st row for the day letters
         for (c = 0; c <= 6; c = c + 1) {
             td = document.createElement("td");
+            
+
+            
             td.innerHTML = "SMTWTFS"[c];
             tr.appendChild(td);
         }
